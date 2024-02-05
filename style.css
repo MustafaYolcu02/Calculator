@@ -1,0 +1,70 @@
+.container {
+	background-color: rgb(255, 0, 0);
+	height: 100%;
+	width: 350px;
+	border: 2px solid black;
+	border-radius: 10px;
+}
+
+.input {
+	height: 80px;
+	width: 330px;
+	background-color: aliceblue;
+	margin: 10px;
+	text-align: right;
+	text-indent: 20px;
+	font-size: 50px;
+}
+
+.container button {
+	background-color: rgb(255, 0, 0);
+	color: black;
+	border: 2px solid black;
+	border-radius: 5px;
+	height: 80px;
+	width: 70px;
+	font-size: xx-large;
+}
+
+.container button:hover {
+	background-color: black;
+	color: red;
+}
+
+.container button:active{
+	opacity: 0.7;
+}
+
+.equal button {
+	height: 350px;
+}
+
+.numpad {
+	padding: 10px 10px;
+}
+
+.operation {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+
+.numbers {
+	display: flex;
+}
+
+.number {
+	display: flex;
+}
+
+.firstcolumn button {
+	margin-bottom: 10px; 
+}
+
+.secondcolumn button {
+	margin-bottom: 10px; 
+}
+
+.thirdcolumn button {
+	margin-bottom: 10px; 
+}
